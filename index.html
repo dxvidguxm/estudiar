@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Examen Interactivo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <!-- Pantalla de inicio -->
+    <div id="start-screen" class="start-screen">
+      <h1>Examen Interactivo</h1>
+      <p>Seleccione el modo de examen:</p>
+      <div class="start-options">
+        <div class="start-option" onclick="startExam('normal')">
+          <h3>Todas las preguntas</h3>
+          <p>Verá todas las preguntas en orden</p>
+        </div>
+        <div class="start-option" onclick="startExam('random')">
+          <h3>Preguntas aleatorias</h3>
+          <p>Una pregunta a la vez en orden aleatorio</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Pantalla del examen -->
+    <div id="exam-screen" class="hidden">
+      <div class="header">
+        <div class="timer" id="timer">00:00</div>
+        <div>
+          <button id="submit-btn" class="btn btn-danger">Finalizar Examen</button>
+        </div>
+      </div>
+
+      <div class="progress-container">
+        <div class="progress">
+          <div class="progress-bar" id="progress-bar"></div>
+        </div>
+      </div>
+
+      <div id="questions-container" class="questions-wrapper"></div>
+      <div id="result" class="hidden"></div>
+
+      <div class="navigation hidden" id="navigation">
+        <button id="prev-btn" class="btn btn-primary">Anterior</button>
+        <button id="next-btn" class="btn btn-primary">Siguiente</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="questions_examen.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
