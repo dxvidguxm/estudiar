@@ -268,7 +268,7 @@ const questions = [
   },
 
   {
-    "question": "18. AWS Management Console.- Es una consola de administración de AWS, es una interfaz web para AWS y se utiliza para acceder a servicios de AWS como de Azurre.",
+    "question": "18. AWS Management Console.- Es una consola de administración de AWS, es una interfaz web para AWS y se utiliza para acceder a servicios de AWS como de Azure.",
     "options": [
       "Verdadero",
       "Falso"
@@ -310,7 +310,7 @@ const questions = [
   },
 
   {
-    "question": "21. Una técnica que reduce la dimensionalidad del problema eliminando palabras irrelevantes es",
+    "question": "21. Una técnica que reduce la dimensionalidad del problema eliminando palabras irrelevantes es:",
     "options": [
       "1. Stop words",
       "2. Normalización",
@@ -657,7 +657,7 @@ const questions = [
     "question": "45. ¿Cuál es el efecto de un filtro pasa alto en una imagen?",
     "options": [
       "1. Convierte la imagen a escala de grises",
-      "2. limina ruido de alta frecuencia",
+      "2. Elimina ruido de alta frecuencia",
       "3. Suaviza los bordes",
       "4. Aumenta la nitidez y resalta detalles finos"
     ],
@@ -724,7 +724,7 @@ const questions = [
     "multiple": true
   },
   {
-    "question": "51. Las herramientas de análisis de seguridad de código pueden generar falsositivos, lo que significa que pueden indicar problemas que en realidad no existen.",
+    "question": "51. Las herramientas de análisis de seguridad de código pueden generar falsos positivos, lo que significa que pueden indicar problemas que en realidad no existen.",
     "options": [
       "Verdadero",
       "Falso"
@@ -780,8 +780,8 @@ const questions = [
       ["a5:", "h5:", "Mide el rendimiento frente a lo planificado"]
     ],
     "options": [
-      "a1: Gestión de calidad | a2: Monitoreo y control | h1: Diagrama de Gantt, cronogramas | h3: Análisis cualitativo y cuantitativo de riesgos | h5: Análisis de valor ganado (EVM) | u1: Visualiza el tiempo y las dependencias | u3: Priorizar y medir riesgos | u4: Inicia formalmente el proyecto",
-      "a1: Visualiza el tiempo y las dependencias | a2: Análisis cualitativo y cuantitativo de riesgos | h1: Inicia formalmente el proyecto | h3: Gestión de calidad | h5: Análisis de valor ganado (EVM) | u1: Diagrama de Gantt, cronogramas | u3: Monitoreo y control | u4: Priorizar y medir riesgos"
+      "a2: Gestión de calidad | a5: Monitoreo y control | h1: Diagrama de Gantt, cronogramas | h3: Análisis cualitativo y cuantitativo de riesgos | h5: Análisis de valor ganado (EVM) | u1: Visualiza el tiempo y las dependencias | u3: Priorizar y medir riesgos | u4: Inicia formalmente el proyecto",
+      "a2: Visualiza el tiempo y las dependencias | a5: Análisis cualitativo y cuantitativo de riesgos | h1: Inicia formalmente el proyecto | h3: Gestión de calidad | h5: Análisis de valor ganado (EVM) | u1: Diagrama de Gantt, cronogramas | u3: Monitoreo y control | u4: Priorizar y medir riesgos"
     ],
     "answer": 0
   }
@@ -856,7 +856,7 @@ const questions = [
     "answer": 3
   },
   {
-    "question": "64. ¿Qué es API Gateway? Gateway es un servicio de administración de API completamente automatizado que permite crear,licar, mantener, monitorear y proteger APIs RESTful",
+    "question": "64. ¿Qué es API Gateway? API Gateway es un servicio de administración de API completamente automatizado que permite crear, publicar, mantener, monitorear y proteger APIs RESTful",
     "options": [
       "Verdadero",
       "Falso"
@@ -924,7 +924,7 @@ const questions = [
     "answer": 0
   },
   {
-    "question": "70. El principio de privilegio mínimo implica otorgar a los usuarios el máximoel de acceso posible para facilitar su trabajo.",
+    "question": "70. El principio de privilegio mínimo implica otorgar a los usuarios el máximo nivel de acceso posible para facilitar su trabajo.",
     "options": [
       "Verdadero",
       "Falso"
